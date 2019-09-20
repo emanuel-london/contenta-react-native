@@ -7,7 +7,7 @@ import CardBody from "../../atoms/CardBody/index";
 export default class NodeView extends React.Component {
   constructor(props) {
     super(props);
-  
+
   }
   render() {
     return (
@@ -26,13 +26,13 @@ export default class NodeView extends React.Component {
           </View>
           <View>
             <Text style={styles.h5}>Instructions</Text>
-            <CardBody bdy={recipe.instructions} />
+            <Text>{recipe.instructions}</Text>
           </View>
         </View>
       ))}
     </View>
     );
-    
+
   }
 }
 export function Item({ title }) {
