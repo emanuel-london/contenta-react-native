@@ -4,18 +4,20 @@ Contenta + React Native application
 Installation instructions:
 
 Clone repository:
-git clone git@github.com:emanuel-london/contenta-react-native.git
+<code>git clone git@github.com:emanuel-london/contenta-react-native.git</code>
 
 Install project:
-cd contenta-react-native
-npm install
+<code>cd contenta-react-native</code>
+
+<code>npm install</code>
 
 Install IOS pods:
-cd ios
-pod install
+<code>cd ios</code>
+
+<code>pod install</code>
 
 Follow instructions here: https://github.com/oblador/react-native-vector-icons#ios to import fonts
 
 Build project:
-react-native run-ios
+<code>react-native run-ios</code>
 
