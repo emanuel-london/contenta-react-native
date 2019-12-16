@@ -19,5 +19,5 @@ Install IOS pods:
 Follow instructions here: https://github.com/oblador/react-native-vector-icons#ios to import fonts
 
 Build project:
-<code>react-native run-ios --simulator="iPhone 11 Pro</code>
+<code>react-native run-ios --simulator="iPhone 11 Pro"</code>
 
